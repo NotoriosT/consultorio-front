@@ -1,0 +1,27 @@
+/* Adicione este código no arquivo CSS relevante */
+.rbc-calendar {
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.rbc-toolbar {
+    background-color: #f3f2f1;
+    color: #323130;
+}
+
+.rbc-header {
+    padding: 10px;
+    background-color: #f3f2f1;
+    border-bottom: 1px solid #e1dfdd;
+}
+
+.rbc-event {
+    background-color: #0078d4;
+    color: white;
+    border-radius: 4px;
+}
+
+.rbc-time-slot {
+    border-bottom: 1px solid #e1dfdd;
+}

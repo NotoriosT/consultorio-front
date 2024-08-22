@@ -1,0 +1,73 @@
+.patient-table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.patient-table th,
+.patient-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.patient-table th.nome-header {
+    background-color: rgba(61, 130, 219, 1);
+    color: white;
+}
+
+.patient-table th.apelido-header {
+    background-color: rgba(61, 130, 219, 1);
+    color: white;
+}
+
+.patient-table th.profissional-header {
+    background-color: rgba(61, 130, 219, 1);
+    color: white;
+}
+
+.patient-table th.doencas-header {
+    background-color: rgba(61, 130, 219, 1);
+    color: white;
+}
+
+.patient-table th.horario-header {
+    background-color: rgba(61, 130, 219, 1);
+    color: white;
+}
+
+.patient-table th.procedimento-header {
+    background-color: rgba(61, 130, 219, 1);
+    color: white;
+}
+
+.patient-table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.patient-table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.patient-table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.patient-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.patient-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+.patient-table {
+    margin: 0 auto; /* Centraliza a tabela */
+    width: 80%; /* Ajusta a largura da tabela */
+    max-width: 100%; /* Garante que a tabela não saia da tela */
+    background-color: white;
+}
+
+.patient-table th,
+.patient-table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}

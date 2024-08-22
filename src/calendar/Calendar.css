@@ -1,0 +1,110 @@
+/* Contêiner principal */
+.calendar-container {
+    background-color: #EDF5FF;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.calendar-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3D82DB;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Formulário */
+.calendar-form {
+    margin-bottom: 20px;
+}
+
+.calendar-form .form-control,
+.calendar-form .form-select {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.calendar-form .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-button {
+    width: 100%;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+/* Tabela de Pacientes */
+.patient-table {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #3D82DB;
+    color: white;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Botões de Paginação */
+.pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.pagination-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination-button:hover {
+    background-color: #0056b3;
+}

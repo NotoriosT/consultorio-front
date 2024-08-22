@@ -1,0 +1,39 @@
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer; /* Adiciona o cursor de pointer para indicar que é clicável */
+}
+
+.settings-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.settings-option-icon {
+    margin-right: 20px; /* Espaçamento entre ícone e texto */
+}
+
+.settings-chevron-icon {
+    color: #3D82DB; /* Cor do ícone ">" */
+}
+
+.settings-card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D82DB;
+    margin-bottom: 0; /* Remove a margem inferior */
+}

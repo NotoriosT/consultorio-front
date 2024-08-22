@@ -1,0 +1,11 @@
+.dentist-list .list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.dentist-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

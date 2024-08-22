@@ -1,0 +1,35 @@
+.patient-page {
+    display: flex;
+    background: rgba(237, 245, 255, 1);
+    height: 100vh;
+
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 10vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3D82DB;
+}
+
+.header p {
+    color: #666;
+}

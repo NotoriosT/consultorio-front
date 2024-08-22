@@ -1,0 +1,86 @@
+.settings-page {
+    display: flex;
+    background: rgba(237, 245, 255, 1);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 10vw;
+    height: 100%;
+    max-width: 100vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header .header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3D82DB;
+}
+
+.header p {
+    color: #666;
+    font-size: 18px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.settings-card:hover {
+    transform: translateY(-10px);
+}
+
+.settings-option-icon {
+    margin-right: 20px; /* Espaçamento entre ícone e texto */
+}
+
+.settings-chevron-icon {
+    color: #3D82DB; /* Cor do ícone ">" */
+}
+
+.settings-card .card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings-card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D82DB;
+    margin-bottom: 0; /* Remove a margem inferior */
+}
+
+.settings-card .card-title i {
+    margin-right: 10px;
+}
